@@ -55,7 +55,7 @@ public class HomePageCrmLinkTest extends TestBase{
 	@Test(priority = 3)
 	public void verifyContactsLinkTest() {
 		conPage = homePage.clickOnContactsLink();
-		Assert.assertTrue(conPage.verifyContactsLabelIsDisplayed());
+		Assert.assertTrue(conPage.verifyContactsLabelIsDisplayed()); // contact label is displayed
 		//Assert.assertEquals(conPage.getContactsLabelText(), null, null);
 	}
 	
